@@ -29,6 +29,12 @@ void Board::paintEvent(QPaintEvent*)
 
     switch (this->option) {
         case Option::plume:
+            p.setPen(QPen(Qt::white, this->thickness, Qt::SolidLine));
+
+            for (int i = 0; i < infRec.size(); ++i)
+            {
+                p.drawRect(infRec[i].start.x(), infRec[i].start.y(), infRec[i].end.x()-infRec[i].start.x(), infRec[i].end.y()-infRec[i].start.y());
+            }
             for (int i = 1; i < inf.size(); ++i)
             {
                 if(inf[i-1].flag==1)
