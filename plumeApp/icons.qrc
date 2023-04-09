@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/windowIcon.png</file>
+        <file>icons/bold.png</file>
+        <file>icons/brush.png</file>
+        <file>icons/clear.png</file>
+        <file>icons/color.png</file>
+        <file>icons/eraser.png</file>
+        <file>icons/figure.png</file>
+        <file>icons/middle.png</file>
+        <file>icons/plume.png</file>
+        <file>icons/rectangle.png</file>
+        <file>icons/text.png</file>
+        <file>icons/thin.png</file>
+        <file>icons/triangle.png</file>
+    </qresource>
+</RCC>
